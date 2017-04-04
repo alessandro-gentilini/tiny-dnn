@@ -11,7 +11,7 @@ This means network architecture for Cifar-10 tends to be larger (or/and deeper) 
 [MNIST example](https://github.com/nyanp/tiny-cnn/tree/master/examples/mnist) before this page.)
 
 ## Prerequisites for this example
-- Download and locate Cifar-10 binary version dataset
+- Download and locate Cifar-10 binary version dataset. At the time of writing the binary version dataset is at [http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz](http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz)
 
 ## Constructing Model
 
