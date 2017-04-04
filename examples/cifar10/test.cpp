@@ -71,8 +71,21 @@ void recognize(const std::string &dictionary, const std::string &src_filename) {
 
   sort(scores.begin(), scores.end(), greater<pair<double, int>>());
 
+  const char* classes[] = {
+	"airplane",
+	"automobile",
+	"bird",
+	"cat",
+	"deer",
+	"dog",
+	"frog",
+	"horse",
+	"ship",
+	"truck"
+  };
+
   for (int i = 0; i < 3; i++)
-    cout << scores[i].second << "," << scores[i].first << endl;
+    cout << classes[scores[i].second] << "," << scores[i].first << endl;
 }
 
 int main(int argc, char **argv) {
