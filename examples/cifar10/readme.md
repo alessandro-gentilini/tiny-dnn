@@ -235,7 +235,7 @@ compile this file and try various learning rate:
 
 ```
 ./example_cifar_train --data_path your-cifar-10-data-directory --learning_rate 0.01 --epochs 30 --minibatch_size 10 --backend_type internal
-./example_cifar_train --data_path your-cifar-10-data-directory --learning_rate 0.01 --epochs 30 --minibatch_size 10 --backend_type internal
+./example_cifar_train --data_path your-cifar-10-data-directory --learning_rate 0.02 --epochs 35 --minibatch_size 16 --backend_type internal
 ```
 
 **Note:** If training is too slow, change ```n_training_epochs```, ```n_fmaps```
